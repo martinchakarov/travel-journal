@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 30px;
 }
 
 .app {
@@ -23,6 +24,7 @@ body {
   gap: 10px;
   color: #FFFFFF;
   min-height: 7vh;
+  margin-bottom: 20px;
 }
 
 .header > i {
@@ -32,6 +34,13 @@ body {
 .header > p {
   line-height: 18px;
   letter-spacing: -0.075em;
+}
+
+.card {
+  margin: 0px 20px 0px 20px;
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px
 }
 
 .img-wrapper {
@@ -46,4 +55,58 @@ body {
   width: 100%;
   object-fit: cover; 
   border-radius: 5px;
+}
+
+.about {
+  margin: 10px;
+}
+
+.country {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.country p {
+  color: #2B283A;
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.country a {
+  margin-left: 15px;
+  font-size: 10.5px;
+  color: #918E9B;
+}
+
+.fa-map-marker {
+  color: #F55A5A;
+  font-size: 10.5px;
+}
+
+.location { 
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.period {
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.description {
+  max-width: 330px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
 }

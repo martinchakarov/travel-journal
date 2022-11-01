@@ -6,6 +6,8 @@ export default function App() {
     <div className="app">
         < Header />
         < Card />
+        < Card />
+        < Card />
     </div>
   );
 }
